@@ -1,11 +1,1 @@
-[eventtypes]
-export = system
-
-[event_renderers]
-export = system
-
-[props]
-export = system
-
-[transforms]
-export = system
+## metadata/default.meta
