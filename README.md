@@ -15,7 +15,7 @@ I have tried to maintain as much compatibility with the original inputs as possi
 
 --[ Installation ]--
 
-For general Cisco events, it is assumed that the Administrator has the ability to configure a separate network input for general Cisco devices.
+For general Cisco events, it is assumed that the Administrator has the ability to configure a separate network input for general Cisco device, as well as configuring the Cisco devices to point to the newly defined input.
 
 My personal recommendation is to configure separate TCP and UDP ports which with a generic source type of "cisco".  This can be done in the GUI or within your inputs.conf file in a manner similar to below:
 
@@ -38,4 +38,6 @@ If you are configuring a TCP source, there have been cases where events close to
 [source::tcp:5170]
 LINE_BREAKER = ([^\>])\<\d{1,3}\>
 
-This does not consider TCP logging in XML format.
+Please test and validate Cisco devices which are using TCP logging on a separate system.  There are a number of known issues with Cisco devices not restarting their TCP logging if the connection gets interrupted for any reason.
+
+IOS routers running IOS 12.4 or higher appear to work well with TCP and have no difficulty recovering.
