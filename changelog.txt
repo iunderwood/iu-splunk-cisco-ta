@@ -1,0 +1,13 @@
+==[ Change Log ]==
+
+2012.10.xx
+* Change "AFP" to "APF" for wireless log entry detection.  Lovely typos.
+* Added to Cisco WAP:
+   HREAP (Hybrid Remote Edge Access Point)
+   MM (Mobility Member)
+   MMC (Mobility Management Connection)
+   NIM (Networks In Motion)
+   RFID (RF Identification)
+   SIM (Subscriber Identity Module)
+   WCP (Wireless Control Protocol)
+* Removed DOT1X from wireless, since it's really an authentication protocol.
