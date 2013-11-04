@@ -1,6 +1,13 @@
 ==[ Change Log ]==
 
-2012.10.xx
+2013.11.04
+----------
+* Added to Cisco IOS:
+   SYS (System)
+* Compatible with Splunk v6!
+
+2012.10.23
+----------
 * Change "AFP" to "APF" for wireless log entry detection.  Lovely typos.
 * Added to Cisco WAP:
    HREAP (Hybrid Remote Edge Access Point)

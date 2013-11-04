@@ -5,7 +5,7 @@ Ian's Splunk Cisco Technology Add-On for Splunk Input
 
 --[ Introduction ]--
 
-This technology add-on sets sourcetype information for incoming Cisco logs in the syslog format.  This transform classifies generic Cisco events.  This app should be deployed on Splunk instances that take input from Cisco devices.
+This technology add-on sets sourcetype information for incoming Cisco logs in the syslog format.  This transform classifies generic Cisco events.  This app should be deployed on Splunk instances that take input from Cisco devices (e.g. indexers, full stacks, heavy forwarders).
 
 This is inspired by the series of Cisco Splunk apps, where I wanted something lightweight to classify traffic on a heavy forwarder, but wasn't doing any indexing.
 
